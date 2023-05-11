@@ -1,0 +1,98 @@
+.our-designers-page {
+    position: absolute;
+    width: 85vw;
+    height: 80vh;
+    left: 10%;
+    top: 220%;
+
+  }
+  .title-ourdesigners {
+    font-family: 'Inter';
+    color: #0400FF;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 1rem;
+  }
+  .designer-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:1rem;
+   margin-top:1rem;
+
+
+  }
+
+  .designer-card {
+    box-sizing: border-box;
+    position: relative;
+    width: 354px;
+    height: 216px;
+    z-index: -2;
+    background: #FFDED0;
+    border: 3px solid #0400FF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .designer-card span {
+   
+    font-family: 'Inter';
+    color: #0400FF;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+   padding:0;
+  }
+
+  .designer-text{
+    align-self: flex-start;
+
+    margin-left:0.5rem;
+  
+  }
+  .designer-card>  img {
+    width: 5rem;
+    height: auto;
+    z-index: 99;
+    margin-top:0.5rem;
+  }
+  .designer-text > .bold-text {
+    font-weight: bold;
+  }
+ 
+  .designer-text-name {
+    color:#FFDED0;
+    z-index: 999;
+  text-align: center;
+    width:100%;
+    font-size: 1.3rem;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+    background-color:#F96688;
+  }
+  .cta-button-join {
+
+box-sizing: border-box;
+position: absolute;
+width: 10rem;
+height: 4rem;
+left: 1135px;
+top:110%;
+background: #FFDED0;
+border: 1px solid #F96688;
+border-radius: 1rem;
+color:#0400ff;
+font-size:1.5rem;
+  }
+  .cta-button-join:hover {
+    background-color: #F96688;
+    cursor:pointer;
+}

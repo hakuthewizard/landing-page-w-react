@@ -1,0 +1,47 @@
+.navbar-container {
+  position: absolute;
+width: 100vw;
+left: 0px;
+top: 0px;
+display:flex;
+justify-content: flex-end;
+
+background: #FFDED0;
+}
+.header1 {
+  position: absolute;
+left: 5%;
+font-family: 'Inconsolata';
+font-weight:100;
+font-size: 2.8rem;
+color: #0400ff;
+}
+.navbar-links {
+  margin:2rem;
+  color:#0400ff;
+  font-size:1.2rem;
+}
+.navbar-links:hover {
+  cursor: pointer;
+  color:#F96688;
+  animation: sparkle 2s ease-in-out infinite;
+}
+.sparkle-image{
+  width:2rem;
+  padding-right:0.4rem;
+}
+.sparkle-image:hover {
+  animation: sparkle 0.5s ease-in-out infinite;
+}
+@keyframes sparkle {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

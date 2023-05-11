@@ -1,0 +1,102 @@
+.footer-container{
+position: absolute;
+width: 100vw;
+height: 357px;
+top: 330%;
+margin:0;
+padding:0;
+background: #FFDED0
+
+}
+.footer-links{
+position: absolute;
+
+left: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+color: #0400FF;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+margin:2rem;
+padding:2rem;
+column-gap:5rem;
+}
+
+.footer-bottom-infotext{
+    position: absolute;
+width: 266.96px;
+height: 22.76px;
+left: 85.85px;
+top:80%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #0400FF;
+}
+.sm-links{
+   
+position: absolute;
+width: 47.05px;
+height: 47.05px;
+left: 1186.42px;
+}
+.sm-links > img {
+   
+    right: 0;
+    top:150%;
+    width:3rem;
+    margin-top:3rem;
+}
+.copyright-img {
+    position: absolute;
+width: 16.05px;
+height: 16.05px;
+left: 56.86px;
+top:84%;
+}
+.text {
+    top: 88%;
+    font-size:0.5rem;
+    width:350px;
+}
+.subscribe-newsletter {
+    position: absolute;
+left: 40%;
+top:20%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+color: #0400FF;
+}
+.input-mail {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 262.62px;
+    height: 42.77px;
+    left: 40%;
+    top:40%;
+    background: #FFDED0;
+    border: 1px solid #0400FF;
+    border-radius: 17px;
+    
+
+}
+.subscribe-button {
+    box-sizing: border-box;
+position: absolute;
+width: 90.21px;
+height: 42.77px;
+left: 58%;
+top:40%;
+background: #F96688;
+border: 1px solid #0400FF;
+border-radius: 17px;
+}
